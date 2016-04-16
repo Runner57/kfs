@@ -27,8 +27,8 @@ balance_sheet_header = '合併資產負債表'
 market_name = {'sii': '上市', 'otc': '上櫃', 'rotc': '興櫃'}
 current_datetime = datetime.datetime.now().strftime("%Y-%m-%d-%02H-%02M-%02S")
 current_year = datetime.datetime.now().year
-query_ROC_year = '104'
-query_quarter = '04'
+query_ROC_year = '105'
+query_quarter = '01'
 
 out_dir = 'out/'
 if not os.path.exists(out_dir):
